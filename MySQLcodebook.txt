@@ -1,0 +1,41 @@
+This is the codebook for MySQL commands
+
+SHOW DATABASES;
+Shows the present databases in the system
+
+CREATE DATABASE <name of database>;
+Creates a database of that name
+
+DROP DATABASE <name of database>;
+Deletes the Database of that name
+
+USE DATABASE <name of database>;
+Uses the current Database
+
+CREATE TABLE <name of table>
+	(
+		column_name data_type;
+		column_name data_type;
+		column_name data_type;
+	);
+Creates tables with 3 colums 
+
+DROP TABLE <name of table>;
+Deletes the selected table
+
+SHOW TABLES;
+Shows all tables present in the database
+
+INSERT INTO <name of table>(column_name,column_name,...) VALUES (data_column_name,...);
+Inserts data into table
+
+SELECT * FROM cats;
+Shows the whole table
+
+INSERT INTO <name of table>(column_name,column_name,...) VALUES (data_column_name,...),(data_column_name,...),(data_column_name,...);
+This Insert command does multiple inserts
+
+
+
+
+
